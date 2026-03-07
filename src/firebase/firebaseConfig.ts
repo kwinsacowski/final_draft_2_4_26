@@ -15,6 +15,7 @@ console.log("Firebase ENV CHECK", {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  "Console log of Firebase config": firebaseConfig,
 });
 
 const app = initializeApp(firebaseConfig);
